@@ -1,0 +1,14 @@
+.login-form {
+    margin-left: 25%;
+    margin-top: 25%;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 50%;
+    border: 1px solid #c7c1c1;
+}
+
+.singin-text {
+    text-align: center;
+    font-size: 40px;
+    border-bottom: 1px solid #c7c1c1;
+}
