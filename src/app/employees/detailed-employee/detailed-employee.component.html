@@ -1,0 +1,29 @@
+<div class="container-fluid">
+    <div class="row">
+        <hr/>
+        <div class="col-md-12" *ngIf="employee">
+           <div class="col-md-4 col-md-offset-4 profile-header">
+                <ul class="nav nav-pills employee-actions">
+                 <li role="presentation"><a href="#">Change Position</a></li>
+                 <li role="presentation"><a href="#">Change Salary</a></li>
+                 <li role="presentation"><a href="#">Send Message</a></li>
+                 <li role="presentation"><a href="#">Archive</a></li>
+                </ul>
+                <hr/>
+                <img class="profile-img-landscape" src="{{employee.imgUrl}}" alt="">
+           </div>
+           <div class="col-md-4 col-md-offset-4 employee-details-name"> 
+               <p> {{employee.firstName}} {{employee.lastName}} </p> 
+               <div class="employee-position-salary-data"> 
+                    Position: {{employee.position}} | Salary: {{employee.salary}}
+               </div>
+            </div>
+           <div class="col-md-8 col-md-offset-2 employee-description">
+               <p> {{employee.description}} </p>
+               <blockquote class="employee-about-himself">
+                {{employee.about}}
+                </blockquote>
+           </div>
+        </div>
+    </div>
+</div>

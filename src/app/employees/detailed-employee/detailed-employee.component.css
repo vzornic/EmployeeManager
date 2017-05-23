@@ -1,0 +1,32 @@
+.profile-img-landscape {
+    height: 350px;
+}
+
+.profile-header {
+    text-align: center;
+}
+
+.employee-details-name {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 1%;
+}
+
+.employee-description {
+    margin-top: 2%;
+    text-align: center;
+}
+
+.employee-actions {
+    padding-left: 10%
+}
+
+.employee-about-himself {
+    font-size: 12px;
+    font-style: italic;
+}
+
+.employee-position-salary-data {
+    font-size: 15px;
+    color: #bdbdbd;
+}

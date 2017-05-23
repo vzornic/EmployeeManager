@@ -10,15 +10,15 @@ import {Employee} from './employee/employee.model';
     providers: [EmployeesService]
 })
 export class EmployeesComponent {
-    
+
     employees: Employee[];
-    
+
     constructor(private employeeService: EmployeesService) {}
-    
+
     ngOnInit(): void {
         this.getEmployees();
     }
-    
+
     getEmployees(): void {
         this.employeeService.getEmployees().then(employees => this.employees = employees);
     }

@@ -10,6 +10,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { LoginComponent } from './login/login.component';
 import { EmployeesComponent } from './employees/employees.component';
 import { EmployeeComponent } from './employees/employee/employee.component';
+import { DetailedEmployeeComponent } from './employees/detailed-employee/detailed-employee.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { EmployeeComponent } from './employees/employee/employee.component';
     NavbarComponent,
     LoginComponent,
     EmployeesComponent,
-    EmployeeComponent
+    EmployeeComponent,
+    DetailedEmployeeComponent
   ],
   imports: [
     BrowserModule,

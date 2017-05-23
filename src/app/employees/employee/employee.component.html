@@ -1,1 +1,18 @@
-<div class="col-md-4"> {{employee.firstName}} </div>
+<div class="col-md-4">
+
+    <div class="panel panel-default employee-block">
+        <div class="panel-heading">
+            <strong>{{employee.firstName}} {{employee.lastName}} - {{employee.position}}</strong>
+        </div>
+        <div class="panel-body">
+            <div class="row">
+                <div class="center-block">
+                    <img class="profile-img" src="{{employee.imgUrl}}" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="panel-heading">
+            <button  [routerLink]="['/employees',  employee.id]" class="btn btn-default">View Profile</button>
+        </div>
+    </div>
+</div>

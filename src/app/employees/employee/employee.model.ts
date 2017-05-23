@@ -1,10 +1,16 @@
 export class Employee {
+    id: number;
     firstName: string;
     lastName: string;
     position: string;
     description: string;
-    salary: number;
+    salary: string;
     imgUrl: string;
+    gender: string;
+    email: string;
+    phone: string;
+    address: string;
+    about: string;
 
     constructor(employeeInfo:any) {
         this.firstName = employeeInfo.firstName;
